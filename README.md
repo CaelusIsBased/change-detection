@@ -16,4 +16,4 @@ The following detection procedures have been implemented:
 - Statistic comparison between Scan B and OKCUSUM ```ScanBvsOnlineKCUSUM.m```
 - EDD comparison between Scan B and OKCUSUM ```figure7proposedvsscanb.m```
 
-  A lot of the scripts look like they were heavily formatted, and that is a result of attempting to "beautify" my code using AI tools (otherwise they were very messy with indendations all over the place). However, all codes are original.
+  A lot of the scripts look like they were heavily formatted, and that is a result of attempting to "beautify" my code using AI tools to fix my poor indendation. This is the *only* place where I used an AI tool. All codes are original.
