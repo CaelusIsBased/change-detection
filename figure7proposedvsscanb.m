@@ -1,18 +1,4 @@
-% Figure 7: EDD vs log10(ARL) — Proposed (red) vs Scan B (orange)
-% Pre-change:  N(0, I_20),  d=20,  N=15,  w=50 (proposed) / B=50 (Scan B)
-%
-% Three subplots (Fig 7 in paper, sigma=2):
-%   Left:   q = 0.3*N(0,I) + 0.7*N(0,4*I)        [Gaussian mixture]
-%   Middle: q = Laplace(0, sigma*1_20)             [Laplace]
-%   Right:  q = Uniform[-sigma*1_20, sigma*1_20]   [Uniform]
-%
-% KEY IDEA: b values are hardcoded; ARL is computed analytically from
-% eq (12):  ARL ≈ sqrt(2π)/b * exp(b²/2)
-% Separate b grids are used for Proposed and Scan B because their
-% detection statistics have different scales — each method's ARL
-% approximation is applied independently.
-%
-% All detection logic is unchanged from OnlineKernelCusum.m / ScanB_paper.m
+
 
 rng(42);
 
